@@ -34,10 +34,10 @@ if (process.env.NODE_ENV === 'production') {
     .then(() => console.log('DB connected successful !'));
 }
 
-app.listen(process.env.PORT || 3000)
-// app.listen(3000, () => {
-//   console.log(`listening to port ${port}`)
-// })
+
+app.listen(3000, () => {
+  console.log(`listening to port ${port}`)
+})
 
 app.use(globalErrorHandler);
 
