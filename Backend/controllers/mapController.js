@@ -2,6 +2,7 @@
 const AppError= require('../utils/appError.js')
 const receiverModel = require('../models/recieversModel.js');
 
+// Getting all receivers
 exports.getAllReceivers = async (req, res, next) => {
 
     try {

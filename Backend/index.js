@@ -38,7 +38,7 @@ if (process.env.NODE_ENV === 'production') {
     .then(() => console.log('Database connected successfully!'));
 }
 
-
+// Listening to the port
 app.listen(3000, () => {
   console.log(`Listening to port ${port}`)
 })

@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const { Schema, model } = mongoose;
 
-// Creating a schema
+// Creating a schema for the coordinates
 const recieverSchema = new Schema({
   longitute: {
     type: Number,
