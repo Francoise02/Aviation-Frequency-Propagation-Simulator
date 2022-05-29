@@ -1,4 +1,4 @@
-let globalURL = window.location.origin.includes("heroku") ? "https://aviation-frequency.herokuapp.com" : "https://aviation-frequency.herokuapp.com";
+let globalURL = window.location.origin.includes("heroku") ? "https://aviation-frequency.herokuapp.com" : "http://localhost:3000";
 
 
 async function initMap(){
