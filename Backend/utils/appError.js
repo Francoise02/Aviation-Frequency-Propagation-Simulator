@@ -1,3 +1,4 @@
+// Creating app errors
 class AppError extends Error {
     constructor(message, statusCode) {
       super(message);
@@ -9,5 +10,6 @@ class AppError extends Error {
     }
   }
   
+  // Exporting the AppError module
   module.exports= AppError;
   

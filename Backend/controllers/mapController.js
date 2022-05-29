@@ -1,3 +1,4 @@
+// Declaring variables from other files
 const AppError= require('../utils/appError.js')
 const receiverModel = require('../models/recieversModel.js');
 
@@ -21,6 +22,7 @@ exports.getAllReceivers = async (req, res, next) => {
     
   };
 
+// Adding a new receiver
 exports.addReceiver = async (req, res, next) => {
     try {
 
@@ -38,6 +40,7 @@ exports.addReceiver = async (req, res, next) => {
     
   };
 
+// Removing a reciever
 exports.removeReceiver = async (req, res, next) => {
     try {
         const { id } = req.params;
@@ -52,3 +55,4 @@ exports.removeReceiver = async (req, res, next) => {
 }
     
   };
+

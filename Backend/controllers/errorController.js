@@ -1,3 +1,4 @@
+// Catching and sending error while on the development env
 const sendErrorDev = (err, res, req) => {
   res.status(err.statusCode).json({
     status: err.status,
@@ -7,6 +8,7 @@ const sendErrorDev = (err, res, req) => {
   });
 };
 
+// Catching and sending error message while on the production env
 const sendErrorProd = (err, res, req) => {
   if (err.isOperational) {
 

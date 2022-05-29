@@ -1,6 +1,8 @@
+// Improting mongoose
 const mongoose = require('mongoose');
 const { Schema, model } = mongoose;
 
+// Creating a schema
 const recieverSchema = new Schema({
   longitute: {
     type: Number,
@@ -8,7 +10,7 @@ const recieverSchema = new Schema({
   },
   latitude: {
     type: Number,
-    required: [true, 'Please! enter longitute.']
+    required: [true, 'Please! enter latitute.']
   },
   radius: {
     type: Number,
@@ -18,6 +20,7 @@ const recieverSchema = new Schema({
   }
 });
 
+// Exporting the module
 const Reciever = model('Reciever', recieverSchema);
-
 module.exports= Reciever;
+
