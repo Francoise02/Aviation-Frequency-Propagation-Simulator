@@ -1,4 +1,4 @@
-// Creating app errors
+// Creating app errors 
 class AppError extends Error {
     constructor(message, statusCode) {
       super(message);

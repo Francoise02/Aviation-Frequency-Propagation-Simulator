@@ -1,4 +1,4 @@
-// Improting mongoose
+// Improting mongoose package
 const mongoose = require('mongoose');
 const { Schema, model } = mongoose;
 

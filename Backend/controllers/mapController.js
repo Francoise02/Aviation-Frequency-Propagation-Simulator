@@ -1,4 +1,4 @@
-// Declaring variables from other files
+// Declaring variables imported from other files
 const AppError= require('../utils/appError.js')
 const receiverModel = require('../models/recieversModel.js');
 
