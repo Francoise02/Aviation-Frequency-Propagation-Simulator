@@ -29,6 +29,6 @@ The Aviation-Frequency-Propagation-Simulator is a program that will allow the us
 6. In your terminal, install require packages as listed under `dependencies` in `package.json` file
 7. After the packages are installed, start the server by running `npm start` or `yarn start` 
 8. It should show you the port on which the server is running and if the database is connected successfully
-9. Next, you can open the frontend folder, go to public, and run `index.html` file on your browser.
+9. Next, you can open the frontend folder, go to public, and open `index.html` file on your browser.
 10. Now, you should be seeing a Google map on your screen. 
 
