@@ -1,4 +1,4 @@
-let globalURL = window.location.origin.includes("heroku") ? "https://aviation-frequency.herokuapp.com" : "http://localhost:3000";
+let globalURL = window.location.origin.includes("heroku") ? "https://aviation-frequency.herokuapp.com" : "https://aviation-frequency.herokuapp.com";
 
 
 async function initMap(){
@@ -17,8 +17,6 @@ async function initMap(){
     position: new google.maps.LatLng(receiver.latitude, receiver.longitute),
         map: map,
         draggable:false,
-        // title: "ken",
-        // label:"k",
         animation: google.maps.Animation.DROP
     })
 
